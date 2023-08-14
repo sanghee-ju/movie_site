@@ -12,3 +12,6 @@ artifacts: # CodeBuild의 output artifcats를 지정합니다.
   files:
     - "**/*"
   base-directory: "dist" # dist 디렉토리의 모든 파일이 해당됩니다.
+cache:
+  paths:
+    - "/root/.m2/**/*"
